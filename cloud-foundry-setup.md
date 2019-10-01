@@ -17,6 +17,12 @@ Once you have installed the CLI tool, verify that it works, by opening a Termina
      
      cf version 6.40.0+07673feb9.2018-10-08
      
+Connect to your account
+
+        cf login 
+        API endpoint> tech4abetterfuture@gmail.com
+        Password > **********
+     
 References:
 
 Installation:
