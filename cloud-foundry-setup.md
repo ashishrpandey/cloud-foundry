@@ -9,7 +9,7 @@ CF CLI setup on Centos:
 Setup the yum package repository then install the cf CLI 
 
     $ sudo wget -O /etc/yum.repos.d/cloudfoundry-cli.repo https://packages.cloudfoundry.org/fedora/cloudfoundry-cli.repo
-    $ sudo yum install cf-cli
+    $ sudo yum install cf-cli -y
     
 Once you have installed the CLI tool, verify that it works, by opening a Terminal and running:
     
