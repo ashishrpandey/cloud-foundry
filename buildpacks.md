@@ -1,4 +1,8 @@
 
+List of all buildpack commands: 
+    
+        cf --help -a |grep -i buildpack
+
 How do I see what buildpacks are available on my CF environment?
 
     $ cf buildpacks
