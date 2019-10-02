@@ -35,3 +35,15 @@ How do I rename a buildpack?
 How do I delete a buildpack?
 
     $ cf delete-buildpack some-buildpack-name
+    
+    
+List of system buidpacks:
+https://docs.cloudfoundry.org/buildpacks/system-buildpacks.html
+
+List of community buidpacks:
+https://github.com/cloudfoundry-community/cf-docs-contrib/wiki/Buildpacks#community-created
+
+Creating a custom buildpack: 
+https://docs.cloudfoundry.org/buildpacks/custom.html
+
+
