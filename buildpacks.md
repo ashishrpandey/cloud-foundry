@@ -23,8 +23,12 @@ How do I change the position of an existing buildpack?
 
     $ cf update-buildpack some-buildpack-name -i <new position number>
 
-Lock a buildpack if your application cannot be updated to a newer version.
+How do I update the buildpack with the new version?
+    
+    $ cf update-buildpack go_buildpack -p https://github.com/cloudfoundry/go-buildpack/releases/download/v1.8.11/go-buildpack-v1.8.11.zip 
+
 How do I lock a buildpack to prevent updates?
+Lock a buildpack if your application cannot be updated to a newer version.
 
     $ cf update-buildpack some-buildpack-name --lock
 
